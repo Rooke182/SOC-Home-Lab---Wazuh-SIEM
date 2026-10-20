@@ -79,11 +79,15 @@ data.win.system.eventID: 4625
 
 ## Evidence and report
 
-A detailed technical investigation report and supporting screenshots were produced during the lab. **They are not included in this public repository yet** while the material is reviewed for personal or sensitive information.
+The full investigation report is available here:
+
+**[Read the full Wazuh investigation report (PDF)](./Wazuh_SOC_Lab_Portfolio_Public_Review.pdf)**
+
+The report includes selected screenshots of the controlled lab tests, PowerShell commands, Wazuh alert findings, troubleshooting notes, and limitations. The publication copy was reviewed and anonymised before upload.
 
 ## Potential next steps
 
-- [ ] Add reviewed and redacted screenshots and the investigation report.
+- [x] Add the reviewed and anonymised investigation report (including screenshots).
 - [ ] Repeat tests with multiple controlled failed sign-ins and examine thresholds and patterns.
 - [ ] Explore custom Wazuh alert rules and document their behaviour.
 - [ ] Create a small script for parsing or summarising Windows authentication events.
